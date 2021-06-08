@@ -1,0 +1,44 @@
+.header {
+  background: #fff;
+  height: 90px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  box-shadow: 0px 6px 20px 0px rgba(2, 33, 29, 0.07);
+  color: #333;
+  background: url('~/assets/header/top_bg.jpg') repeat-x;
+
+  &>div {
+    display: inline-block;
+  }
+
+  ul {
+    float: right;
+    height: 100%;
+    margin-bottom: 0;
+
+    li {
+      display: inline-block;
+      text-align: center;
+      margin-right: 5px;
+      cursor: pointer;
+      color: #f0f0f0;
+      height: 90px;
+      margin-top: 13px;
+      width: 70px;
+      height: 70px;
+      font-size: 0.13rem;
+
+      &:hover {
+        background: url("~/assets/header/t_hover.png");
+      }
+
+      &>span {
+        display: block;
+        margin-top: 10px;
+      }
+    }
+  }
+}
