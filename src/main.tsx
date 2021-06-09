@@ -7,7 +7,7 @@ import '~/assets/common.less';
 
 const apps = [
   {
-    name: '模块1',
+    name: 'module1',
     entry: '//localhost:3001',
     container: '#module1',// 容器名
     activeRule: '/module1', // 激活的路径
@@ -16,7 +16,7 @@ const apps = [
     }
   },
   {
-    name: '模块2',
+    name: 'module2',
     entry: '//localhost:20000',
     container: '#module2',// 容器名
     activeRule: '/module2' // 激活的路径
